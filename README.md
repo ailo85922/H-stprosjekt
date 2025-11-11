@@ -1,60 +1,56 @@
 # Readme
-Prosjektet skal være et system som kjører på en Raspberry Pi, der en webapplikasjon lar brukere registrere og hente data.
-Data lagres i en MariaDB-database, og vises på en nettside via Flask backend.
-Målet er å lage en enkel prototype/MVP som fungerer på nettverket og kan brukes av sluttbrukere med minimal opplæring.
+Kort beskrivelse
+
+Prosjektet skal være et enkelt chat-forum, der brukere kan sende meldinger som lagres i en database og vises for andre.
+Systemet skal kjøre på en Raspberry Pi, ha en Flask-backend, en enkel webside som viser meldinger i sanntid (eller ved reload), og en MariaDB-database for lagring av chat-innhold.
+
+MVP / Prototype
 
 Minimum fungerende løsning:
 
-Flask-server som kjører på Raspberry Pi
+Flask-server kjører på Raspberry Pi
 
-Bruker kan legge inn data via et enkelt skjema
+Bruker kan skrive og sende meldinger via nettside
 
-Data lagres og kan hentes fra MariaDB
+Meldinger lagres i MariaDB
 
-Enkel nettside med visning av data
+Meldinger vises i chat-feed i nettleser
 
+| Språk/teknologi/utstyr     | Brukes til                 |
+| -------------------------- | -------------------------- |
+| **Python**                 | Backend                    |
+| **Flask**                  | Webserver + API            |
+| **HTML/CSS**               | Brukergrensesnitt          |
+| **JavaScript (valgfritt)** | Oppdatere chat uten reload |
+| **MariaDB**                | Lagring av meldinger       |
+| **SQL**                    | Databasespørringer         |
+| **Raspberry Pi**           | Kjøre systemet             |
+| **Git / GitHub**           | Versjonskontroll           |
+| **GitHub Projects**        | Planlegging                |
 
+Kompetanse – fagområder
+Utvikling
 
+Python-backend med Flask
 
-| Språk/teknologi/utstyr | Brukes til                       |
-| ---------------------- | -------------------------------- |
-| **Python**             | Utvikling av backend             |
-| **Flask**              | Webserver og API                 |
-| **HTML/CSS**           | Brukergrensesnitt                |
-| **MariaDB**            | Lagring av data                  |
-| **SQL**                | Databasespørringer               |
-| **Raspberry Pi**       | Kjøre systemet                   |
-| **Git / GitHub**       | Versjonskontroll + dokumentasjon |
-| **GitHub Projects**    | Organisering og planlegging      |
+API-endepunkt for å poste og hente meldinger
 
-  Utvikling
+Databasedesign og spørringer
 
-Skrive Python-kode
+Enkelt brukergrensesnitt
 
-Lage backend som håndterer data
+Drift
 
-SQL-spørringer
+Installere Flask og MariaDB på Raspberry Pi
 
-Lage en enkel webklient / UI
+Kjøre/hoste webserveren på lokalt nett
 
-  Drift
-
-Sette opp Raspberry Pi
-
-Installere og konfigurere MariaDB
-
-Kjøre Flask på Pi
-
-Nettverksoppsett
+Håndtere databasekonfigurasjon
 
 Brukerstøtte
 
-Lage brukeropplæring / veiledning
+Dokumentasjon av hvordan man bruker chatten
 
-Dokumentasjon (README, guider osv.)
+Enkel brukeropplæring
 
-Lage et enkelt og forståelig grensesnitt
-
-Stikkord:
-
-litt erfaring med flask, python og raspberry pi
+Feilsøking (FAQ / vanlige feil)
