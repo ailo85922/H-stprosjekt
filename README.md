@@ -1,4 +1,4 @@
-# Readme
+# Høst - Prosjekt
 Kort beskrivelse
 
 Prosjektet skal være et enkelt chat-forum, der brukere kan sende meldinger som lagres i en database og vises for andre.
