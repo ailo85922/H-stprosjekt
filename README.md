@@ -4,7 +4,7 @@ Kort beskrivelse
 Prosjektet skal være et enkelt chat-forum, der brukere kan sende meldinger som lagres i en database og vises for andre.
 Systemet skal kjøre på en Raspberry Pi, ha en Flask-backend, en enkel webside som viser meldinger i sanntid (eller ved reload), og en MariaDB-database for lagring av chat-innhold.
 
-MVP / Prototype
+# MVP / Prototype
 
 Minimum fungerende løsning:
 
@@ -28,7 +28,7 @@ Meldinger vises i chat-feed i nettleser
 | **Git / GitHub**           | Versjonskontroll           |
 | **GitHub Projects**        | Planlegging                |
 
-Kompetanse – fagområder
+# Kompetanse – fagområder
 Utvikling
 
 Python-backend med Flask
